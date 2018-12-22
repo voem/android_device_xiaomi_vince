@@ -48,7 +48,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953-4.9
 TARGET_KERNEL_VERSION := 4.9
 
 # ANT
-BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
