@@ -56,10 +56,9 @@ persist.vendor.qti.telephony.vt_cam_interface=1 \
 sdm.idle_time=1000 \
 vidc.enc.dcvs.extra-buff-count=2
 
-# Cne/Dpm
+# Cne
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.vendor.cne.feature=1 \
-persist.vendor.dpm.feature=1
+persist.vendor.cne.feature=1
 
 # Coresight
 PRODUCT_PROPERTY_OVERRIDES += \
