@@ -1,3 +1,14 @@
+# Audio ACDB - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+vendor/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb|6291d5e7457a962d9ba7bc0b3a33392abfe2cb27
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|7d233a9a4c9d3e7824114e415c02773385da5719
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|d2bdb61a06db632f2f15bda7a90334ae51624ded
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|4f5537eaadd53c434d34b838f76fda03fbc6fd22
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|181f82dd994e889999ffc004544ced6c1d901c6d
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|7e7d37c292a2b081eaa8b6c0ea88f3bb834a0cf4
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|71b2d317d1d1cc8bfb3bd6c52c7df9d617720bf3
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|12c0aa04541cf104719dfa8412a4682640ea78c2
+vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp|3c6ddbb151ea09cd8a312709e0c89381546a0771
+
 # ADSP - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/bin/adsprpcd|3d1e7e14dfc2f2468a06e0af9c0d34f4bda28d4b
 vendor/lib/libadsprpc.so|a2ff69f96a9242d4be0fe5cae2475c23294f937a
