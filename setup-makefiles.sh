@@ -18,11 +18,12 @@
 
 set -e
 
-INITIAL_COPYRIGHT_YEAR=2017
-
 # Required!
 export DEVICE=vince
+export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
+
+INITIAL_COPYRIGHT_YEAR=2018
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -41,7 +42,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
 
 # Copyright headers and guards
-write_headers "vince tissot"
+write_headers "vince"
 
 # The standard common blobs
 write_makefiles "$MY_DIR"/proprietary-files-qc.txt true
