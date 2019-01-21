@@ -53,6 +53,7 @@ persist.camera.gyro.disable=0 \
 persist.camera.isp.clock.optmz=0 \
 persist.camera.stats.test=5 \
 persist.vendor.qti.telephony.vt_cam_interface=1 \
+sdm.idle_time=1000 \
 vidc.enc.dcvs.extra-buff-count=2
 
 # Cne/Dpm
@@ -82,6 +83,7 @@ ro.qualcomm.cabl=0 \
 ro.sf.lcd_density=420 \
 ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
+sys.paper_mode_max_level=32 \
 vendor.display.enable_default_color_mode=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
