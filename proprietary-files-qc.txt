@@ -303,7 +303,7 @@ vendor/lib64/libscalar.so|61c059ca3b9da6a36bdf112e8fbe26a252ad1234
 vendor/lib64/libsdm-color.so|bca0a2a58c2c33e1dbed82de7446ebfcbc8250ff
 vendor/lib64/libsdm-diag.so|87a4f764e894f16246c9a0d6e3f5885df76b750b
 -vendor/lib64/libsdm-disp-vndapis.so|fde2de5a3f031577edc39b49036435ef2607b134
-vendor/lib64/libsdmextension.so|b26b05c09aac03153fdb6ece475cc5866f390e1d
+vendor/lib64/libsdmextension.so|040bca52cc5e1a12914ebbcac39be1d36b98adca
 vendor/lib64/libtinyxml2_1.so|b225b16e689e7e4c26fc6144637f6b0c416063f8
 
 # Graphics (HDR) - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
@@ -311,7 +311,7 @@ vendor/lib/libhdr_tm.so|8060a5d9ed0283c7b89716165ba8af4b86ef0210
 vendor/lib64/libhdr_tm.so|df15d487e73560f81017bcf4a73c28c9697b1ed9
 
 # Graphics (Postprocessing) - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
-etc/permissions/com.qti.snapdragon.sdk.display.xml|79a36c560f8cdbfeca03911fefc282bda25b2322
+etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|db5b8dd09100aab238b5972192f5ab944f38208c
 -lib/vendor.display.color@1.0.so|a4da7352135120a3f1dc6c73edecec87bea5c1a5
 lib/vendor.display.postproc@1.0.so|fb2b2af0f4811769424d68898f5ea323372ba0e5
@@ -481,7 +481,7 @@ vendor/lib64/libqmiservices.so|4c864ef6193237e620aa22d770df3329d4ed821e
 # Radio - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 -app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
-etc/permissions/telephonyservice.xml|3a6bc2a522270f968ff5a332b8781c0289e6d1ef
+etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 framework/QtiTelephonyServicelibrary.jar|1df2f89ffb3aedc36e1c2ca7cafbf73a6a06b3fb
 framework/qcrilhook.jar|784df5e6aa9df0127700b9a6f1083440ebfac057
 framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
