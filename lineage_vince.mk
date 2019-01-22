@@ -28,7 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := lineage_vince
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 4
+PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
