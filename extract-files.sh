@@ -19,7 +19,7 @@
 set -e
 
 DEVICE=vince
-DEVICE_COMMON=msm8953-common
+DEVICE_COMMON=vince-common
 VENDOR=xiaomi
 
 export DEVICE_BRINGUP_YEAR=2018
@@ -61,13 +61,13 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true "$CLEAN_VENDOR"
 
-extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
+#extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
 
 if [ -s "$MY_DIR"/../$DEVICE/proprietary-files.txt ]; then
     # Reinitialize the helper for device
     setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
-    extract "$MY_DIR"/../$DEVICE/proprietary-files.txt "$SRC" "$SECTION"
+    #extract "$MY_DIR"/../$DEVICE/proprietary-files.txt "$SRC" "$SECTION"
 fi
 
 DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
