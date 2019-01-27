@@ -569,16 +569,20 @@ vendor/lib/libchromatix_vince_ov5675_qtech_snapshot.so
 vendor/lib/libchromatix_vince_ov5675_qtech_zsl_preview_3a.so
 vendor/lib/libchromatix_vince_ov5675_qtech_zsl_video_3a.so
 
-# Camera HIDL - from vince (HACK NEEDED)
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
+# Camera HIDL - from sakura - PKQ1.180917.001/9.1.26 (HACK NEEDED)
+vendor/bin/hw/android.hardware.camera.provider@2.4-service|cc1e0e167eb26baf89c80cde770f2f33cdb1ae88
+vendor/lib/camera.device@1.0-impl.so|7c55f79b3fa5afadd8cee94eb2cbb68cf5e3738d
+vendor/lib/camera.device@3.2-impl.so|b89dec1ca366e8fabff4c67ec8ab0e506793a5aa
+vendor/lib/camera.device@3.3-impl.so|7578faa784391aa67c1d275147ee7296f311c314
+vendor/lib/camera.device@3.4-external-impl.so|197616eddc706225d5694cefc8fae62351963e75
+vendor/lib/camera.device@3.4-impl.so|0111b7aa77518dba498ab8ceb9d477566082782b
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|ef602772c3cb7d893c4f806cf2f25e4338dcee70
+vendor/lib64/camera.device@1.0-impl.so|3512b244735cc562146814e28cc2b1fe6259cc0b
+vendor/lib64/camera.device@3.2-impl.so|0f383066b58bb4c75dbd545642595f41c3aee568
+vendor/lib64/camera.device@3.3-impl.so|1d6d118fb6894757f96d71510bbf0ea8213ead7c
+vendor/lib64/camera.device@3.4-external-impl.so|89cfce0ff36fa84ac84fc599c505dad017a44e62
+vendor/lib64/camera.device@3.4-impl.so|b66e584910a4c2635134a45e5a5dca4e8190c1d0
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|72cacfe3adc8bc3fadd9c2ab3b52693b9326eded
 
 # Camera OIS
 vendor/lib/libois_lc898122.so
