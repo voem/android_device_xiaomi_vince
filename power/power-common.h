@@ -42,6 +42,9 @@
 #define HINT_HANDLED (0)
 #define HINT_NONE (-1)
 
+#define DT2W_TD4310 "/sys/class/input/input1/wake_gesture"
+#define DT2W_NOVATEK "/proc/tp_wakeup_switch"
+
 enum CPU_GOV_CHECK {
     CPU0 = 0,
     CPU1 = 1,
