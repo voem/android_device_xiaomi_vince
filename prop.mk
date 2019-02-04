@@ -47,6 +47,7 @@ ro.qualcomm.bt.hci_transport=smd
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.display.lmax=1280x720 \
 camera.display.umax=1920x1080 \
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
 camera.lowpower.record.enable=1 \
 media.camera.ts.monotonic=1 \
 persist.camera.gyro.disable=0 \
@@ -54,6 +55,8 @@ persist.camera.isp.clock.optmz=0 \
 persist.camera.stats.test=5 \
 persist.vendor.qti.telephony.vt_cam_interface=1 \
 sdm.idle_time=1000 \
+vendor.camera.aux.packagelist2=com.android.systemui \
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera \
 vidc.enc.dcvs.extra-buff-count=2
 
 # Cne
