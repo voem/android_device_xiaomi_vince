@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mk_vince.mk
+    $(LOCAL_DIR)/xenonhd_vince.mk
