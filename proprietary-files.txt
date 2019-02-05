@@ -569,21 +569,6 @@ vendor/lib/libchromatix_vince_ov5675_qtech_snapshot.so
 vendor/lib/libchromatix_vince_ov5675_qtech_zsl_preview_3a.so
 vendor/lib/libchromatix_vince_ov5675_qtech_zsl_video_3a.so
 
-# Camera HIDL - from sakura - PKQ1.180917.001/9.1.26 (HACK NEEDED)
-vendor/bin/hw/android.hardware.camera.provider@2.4-service|cc1e0e167eb26baf89c80cde770f2f33cdb1ae88
-vendor/lib/camera.device@1.0-impl.so|7c55f79b3fa5afadd8cee94eb2cbb68cf5e3738d
-vendor/lib/camera.device@3.2-impl.so|b89dec1ca366e8fabff4c67ec8ab0e506793a5aa
-vendor/lib/camera.device@3.3-impl.so|7578faa784391aa67c1d275147ee7296f311c314
-vendor/lib/camera.device@3.4-external-impl.so|197616eddc706225d5694cefc8fae62351963e75
-vendor/lib/camera.device@3.4-impl.so|0111b7aa77518dba498ab8ceb9d477566082782b
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|ef602772c3cb7d893c4f806cf2f25e4338dcee70
-vendor/lib64/camera.device@1.0-impl.so|3512b244735cc562146814e28cc2b1fe6259cc0b
-vendor/lib64/camera.device@3.2-impl.so|0f383066b58bb4c75dbd545642595f41c3aee568
-vendor/lib64/camera.device@3.3-impl.so|1d6d118fb6894757f96d71510bbf0ea8213ead7c
-vendor/lib64/camera.device@3.4-external-impl.so|89cfce0ff36fa84ac84fc599c505dad017a44e62
-vendor/lib64/camera.device@3.4-impl.so|b66e584910a4c2635134a45e5a5dca4e8190c1d0
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|72cacfe3adc8bc3fadd9c2ab3b52693b9326eded
-
 # Camera OIS
 vendor/lib/libois_lc898122.so
 
@@ -591,18 +576,7 @@ vendor/lib/libois_lc898122.so
 vendor/bin/mm-qcamera-daemon
 
 # Camera QCOM Libraries - from vince
-lib/libskia.so:vendor/lib/libskia.so
-lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
-lib/libicuuc.so:vendor/lib/libicuuc-v27.so
-lib/libminikin.so:vendor/lib/libminikin-v27.so
-vendor/lib/hw/camera.msm8953.so
-vendor/lib/libFaceGrade.so
 vendor/lib/libMiWatermark.so
-vendor/lib/libXMFD_AgeGender.so
-vendor/lib/lib_lowlight.so
-vendor/lib/libarcsoft_beautyshot.so
-vendor/lib/libarcsoft_dualcam_refocus.so
-vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
@@ -611,7 +585,6 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmibokeh_625.so
-vendor/lib/libmm-qcamera.so
 
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
@@ -644,7 +617,6 @@ vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_interface.so
 
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
@@ -708,12 +680,9 @@ vendor/lib/libmmcamera_vince_ov5675_qtech.so
 vendor/lib/libmmcamera_vince_ov5675_qtech_eeprom.so
 
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
-vendor/lib/libmpbase.so
 vendor/lib/liboptizoom.so
-vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
@@ -729,8 +698,8 @@ vendor/lib/libscveObjectTracker_stub.so
 vendor/lib/libscvePanorama.so
 vendor/lib/libscvePanorama_lite.so
 vendor/lib/libseemore.so
-vendor/lib/libts_detected_face_hal.so
-vendor/lib/libts_face_beautify_hal.so
+-vendor/lib/libts_detected_face_hal.so
+-vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libubifocus.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
