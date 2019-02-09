@@ -43,7 +43,7 @@ on boot
     chmod 0660 /sys/devices/platform/soc/soc:fpc1020/fingerdown_wait
 
     # For generic DT2W
-    chown system input /dev/input/event1
+    chown system input /dev/input/event2
 
 on property:sys.fp.vendor=goodix
    setprop ro.boot.fpsensor goodix
