@@ -297,6 +297,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.msm.usb.configfs.rc \
     init.goodix.sh \
     init.qcom.bt.sh \
     init.qti.fm.sh \
