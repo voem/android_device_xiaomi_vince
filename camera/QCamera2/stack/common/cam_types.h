@@ -1248,6 +1248,7 @@ typedef struct {
     cam_dimension_t fd_frame_dim;              /* frame dims on which fd is applied */
     uint8_t update_flag;                       /* flag to inform whether HAL needs to send cb
                                                 * to app or not */
+    volatile char xiaomi_reserved[160]; /* xiaomi added something with the size of 160 bytes here */
 } cam_face_detection_data_t;
 
 // definition of composite face detection data
@@ -1465,6 +1466,7 @@ typedef enum {
 typedef struct {
   uint32_t is_hdr_scene;
   float    hdr_confidence;
+  uint16_t xiaomi_reserved;
 } cam_asd_hdr_scene_data_t;
 
 typedef struct {
@@ -1527,6 +1529,8 @@ typedef struct {
     int32_t est_snap_iso_value;
     uint32_t est_snap_luma;
     uint32_t est_snap_target;
+    volatile char xiaomi_reserved[8];
+    //uint64_t xiaomi_reserved;
 } cam_3a_params_t;
 
 typedef struct {
@@ -2152,6 +2156,7 @@ typedef enum {
     /* parameters added for related cameras */
     /* fetch calibration info for related cam subsystem */
     CAM_INTF_PARM_RELATED_SENSORS_CALIBRATION,
+    XIAOMI_01,
     /* focal length ratio info */
     CAM_INTF_META_AF_FOCAL_LENGTH_RATIO,
     /* crop for binning & FOV adjust */
@@ -2234,6 +2239,10 @@ typedef enum {
     CAM_INTF_META_SPOT_LIGHT_DETECT,
     /* HAL based HDR*/
     CAM_INTF_PARM_HAL_BRACKETING_HDR,
+    XIAOMI_02,
+    XIAOMI_03,
+    XIAOMI_04,
+    XIAOMI_05,
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 
