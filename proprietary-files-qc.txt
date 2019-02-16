@@ -638,11 +638,12 @@ vendor/lib64/libsensor_reg.so|74659858f5abcfa0d8c826af2e2e46addc9f5f87
 vendor/lib64/libsensor_user_cal.so|92de798c64f9e23ca1069a5a4bec5895fafa9a22
 vendor/lib64/sensors.ssc.so|3d6eed945ab3ec2d91517cd6e9941df17a290445
 
-# Thermal - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
-vendor/bin/thermal-engine|bbf772d4acf6c11413d2f728140aae63a49d3eae
--vendor/lib/libthermalclient.so|523476e106337823696f0600b48f057d8c629465
--vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
-vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
+# Thermal - from ASUS_X01AD OPM1/15.2016.1901.156-20190126
+vendor/bin/thermal-engine|4cde623cbf00364ec81ac859375919a472015be8
+vendor/lib/libthermalclient.so|a28e037c32fa3d7a68678161a019e725d4d61075
+vendor/lib/hw/thermal.msm8953.so|c904b4ae00aa887568593eee2d0284d28319fdee
+vendor/lib64/libthermalclient.so|f9770f6d6b90faff51e07e9435741dfc57e2080b
+vendor/lib64/hw/thermal.msm8953.so|d01d618f667075d3f1fc98fe357b6b5706f90995
 
 # Time services - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 -vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
