@@ -30,7 +30,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 LINEAGE_ROOT="$MY_DIR"/../../..
 
-HELPER="$LINEAGE_ROOT"/vendor/mk/build/tools/extract_utils.sh
+HELPER="$LINEAGE_ROOT"/vendor/xenonhd/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -61,13 +61,13 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true "$CLEAN_VENDOR"
 
-#extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
+extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
 
 if [ -s "$MY_DIR"/../$DEVICE/proprietary-files.txt ]; then
     # Reinitialize the helper for device
     setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
-    #extract "$MY_DIR"/../$DEVICE/proprietary-files.txt "$SRC" "$SECTION"
+    extract "$MY_DIR"/../$DEVICE/proprietary-files.txt "$SRC" "$SECTION"
 fi
 
 DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
