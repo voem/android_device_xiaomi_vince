@@ -16,8 +16,6 @@
 
 DEVICE_PATH := device/xiaomi/vince
 
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -183,7 +181,6 @@ TARGET_TAP_TO_WAKE_NODE := "/dev/input/event2"
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_USE_SDCLANG := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
@@ -211,7 +208,6 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
-BOARD_HAS_QCOM_WLAN_SDK := true
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
 BOARD_WLAN_DEVICE := qcwcn
