@@ -81,6 +81,10 @@ dalvik.vm.dex2oat-filter=speed \
 dalvik.vm.image-dex2oat-filter=speed \
 ro.sys.fw.dex2oat_thread_count=8
 
+# Usb
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.usb.config.extra=none
+
 # XenonHD maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.xenonhd.maintainer=rama982
